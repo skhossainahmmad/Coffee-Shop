@@ -18,12 +18,12 @@ samples, guidance on mobile development, and a full API reference.
 ##  App Screenshots
 
 <p float="left">
-  <img src="assets/screenshots/splash_page.png" width="200"/>
   <img src="assets/screenshots/login_page.png" width="200"/>
   <img src="assets/screenshots/signup.png" width="200"/>
 </p>
 
 <p float="left">
+  <img src="assets/screenshots/splash_page.png" width="200"/>
   <img src="assets/screenshots/home_page.png" width="200"/>
   <img src="assets/screenshots/coffee_details_page.png" width="200"/>
 </p>
