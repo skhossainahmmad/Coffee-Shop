@@ -1,3 +1,4 @@
+import 'package:coffee_shop/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:coffee_shop/signup_page.dart';
@@ -22,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
             width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/images/login.png"),
+                image: AssetImage("assets/images/login.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -105,12 +106,20 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ),
 
-                          Text(
-                            "Forgot Password",
-                            style: TextStyle(
-                              color: Colors.black,
-                              fontWeight: FontWeight.w100,
-                              fontSize: 20,
+                          InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                CupertinoPageRoute(builder: (_) => HomePage()),
+                              );
+                            },
+                            child: Text(
+                              "More Shop ",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w100,
+                                fontSize: 20,
+                              ),
                             ),
                           ),
                         ],

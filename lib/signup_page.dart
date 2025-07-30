@@ -21,7 +21,7 @@ class _LoginPageState extends State<SignUpPage> {
             width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/images/register.png"),
+                image: AssetImage("assets/images/register.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),

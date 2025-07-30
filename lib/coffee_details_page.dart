@@ -1,4 +1,5 @@
 import 'package:coffee_shop/home_page.dart';
+import 'package:coffee_shop/login_page.dart';
 import 'package:coffee_shop/widget/custome_button.dart';
 import 'package:coffee_shop/widget/custom_elvated_btn.dart';
 import 'package:flutter/cupertino.dart';
@@ -219,7 +220,12 @@ class _CoffeeDetailsPageState extends State<CoffeeDetailsPage> {
                       text: "Buy Now",
                       width: 200,
                       height: 50,
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          CupertinoPageRoute(builder: (_) => LoginPage()),
+                        );
+                      },
                     ),
                   ],
                 ),
